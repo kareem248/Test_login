@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T06:51:57 EEST" name="Default suite" finished-at="2023-09-09T06:52:04 EEST" duration-ms="7021">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T06:51:57 EEST" name="Default test" finished-at="2023-09-09T06:52:04 EEST" duration-ms="7021">
+      <class name="login.TestSuite">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:login.TestSuite@4116aac9]" started-at="2023-09-09T06:51:57 EEST" name="openBrowser" finished-at="2023-09-09T06:52:02 EEST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:login.TestSuite@4116aac9]" started-at="2023-09-09T06:52:02 EEST" name="login" finished-at="2023-09-09T06:52:03 EEST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:login.TestSuite@4116aac9]" started-at="2023-09-09T06:52:03 EEST" name="closeBrowser" finished-at="2023-09-09T06:52:04 EEST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- login.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

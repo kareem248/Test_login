@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+  <test name="smoke test">
+    <classes>
+      <class name="login.TestSuite" /> <!-- Specify your test class here -->
+      <!-- You can add more test classes as needed -->
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite case">
+  <test thread-count="4" name="logincasetest">
+    <classes>
+      <class name="login.firstcase" /> 
+
+    </classes>
+  </test>
+</suite>

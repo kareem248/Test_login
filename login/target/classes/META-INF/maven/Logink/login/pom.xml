@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Logink</groupId>
+  <artifactId>login</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Logink</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.test</groupId>
+  		<artifactId>Selenium</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	<!-- Cucumber Dependencies -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.0.0</version> <!-- Use the latest version -->
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.0.0</version> <!-- Use the latest version -->
+    <scope>test</scope>
+</dependency>
+
+  </dependencies>
+</project>
